@@ -1,0 +1,86 @@
+.nav {
+    height: 100px;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    height: 100px;
+    margin-right: 70%;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    height: 100px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+.link:hover {
+    color: green;
+}
+
+@media only screen and (max-width: 3000px) {
+    .logo {
+        margin-right: 60%;
+    }
+}
+
+@media only screen and (max-width: 2230px) {
+    .logo {
+        margin-right: 50%;
+    }
+}
+
+@media only screen and (max-width: 1781px) {
+    .logo {
+        margin-right: 40%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .logo {
+        margin-right: 30%;
+    }
+}
+
+@media only screen and (max-width: 1275px) {
+    .logo {
+        margin-right: 15%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .logo {
+        margin-right: 8%;
+    }
+}
+
+@media only screen and (max-width: 975px) {
+    .nav {
+        height: 250px;
+    }
+
+    .list {
+      flex-direction: column;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .link {
+        padding: 0;
+    }
+}
