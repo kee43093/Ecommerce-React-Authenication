@@ -82,5 +82,6 @@
 
     .link {
         padding: 0;
+        display: block;
     }
 }
